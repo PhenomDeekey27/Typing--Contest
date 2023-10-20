@@ -116,4 +116,13 @@ button {
   border: 2px solid gainsboro;
 
   padding: 15px;
+  position: relative;
+}
+.upper-text {
+  color: grey;
+}
+.user-text {
+  color: red;
+  position: absolute;
+  top: 15px;
 }
