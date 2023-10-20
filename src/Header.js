@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BiSolidKeyboard } from "react-icons/bi";
 import { BiSolidUserCircle } from "react-icons/bi";
 
-
-const Header = (props) => {
+const Header = () => {
   const [time, Settime] = useState(15);
   // const [second, Setsecond] = useState();
   // function crtTimer(value) {

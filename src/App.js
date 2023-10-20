@@ -6,11 +6,9 @@ import Footer from "./Footer";
 import Controls from "./Controls";
 
 const App = () => {
-  const [time, Settime] = useState(15);
-
   return (
     <div className="main-container">
-      <Header time={time} Settime={Settime}></Header>
+      <Header></Header>
       <Typing></Typing>
       <Controls></Controls>
 
