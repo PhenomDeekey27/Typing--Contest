@@ -4,29 +4,6 @@ import { BiSolidUserCircle } from "react-icons/bi";
 
 const Header = () => {
   const [time, Settime] = useState(15);
-  // const [second, Setsecond] = useState();
-  // function crtTimer(value) {
-  //   Settime(value);
-  //   let timer = setInterval(() => {
-  //     Settime(value + 1);
-  //   }, 1000);
-  //   if (value === 18) {
-  //     clearInterval(timer);
-  //   }
-  // }
-  // let time = props.time;
-  // let Settime = props.Settime;
-
-  // useEffect(() => {
-  //   let countdown = setInterval(() => {
-  //     if (time === 0) {
-  //       clearInterval(countdown);
-  //     }
-  //     Settime(time);
-
-  //     time--;
-  //   }, 1000);
-  // }, []);
 
   function increaser(value) {
     Settime(value);

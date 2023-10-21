@@ -10,12 +10,10 @@ const Typing = () => {
         {text.split(" ").map((char) => (
           <span key={"char" + keychar++}>{char} </span>
         ))}
+
         <div className="user-text">
-          <span>
-            <input type="text"></input>
-          </span>
+          <textarea className="text-input"></textarea>
         </div>
-        <label>un</label>
       </div>
     </div>
   );
